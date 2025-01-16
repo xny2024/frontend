@@ -1,7 +1,7 @@
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
 import { createPortal } from "react-dom";
-import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+import * as monaco from 'monaco-editor-core';
 
 export type ZoneLayoutData = ZoneLineData[];
 

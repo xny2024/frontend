@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+import * as monaco from 'monaco-editor-core';
 import { createRoot } from "react-dom/client";
 import { Disposable, DisposableCollection } from "../../../utils/disposable";
 import ViewZoneRender, { ViewZoneObserver, ZoneLayoutData } from "./viewZoneRender";
 import { runInAction } from "mobx";
-import useEditor from "@/hooks/monaco-editor/useEditor";
+import { useEditor } from "@/hooks/monaco-editor";
 
 interface Props {
   viewZoneShow: boolean;

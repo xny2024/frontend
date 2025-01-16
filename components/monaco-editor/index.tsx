@@ -1,6 +1,6 @@
 'use client'
 
-import useEditor from "@/hooks/monaco-editor/useEditor"
+import { useEditor } from "@/hooks/monaco-editor"
 
 export default function App () {
   const [editor, monacoEl] = useEditor();
