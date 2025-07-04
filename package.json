@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@theia/monaco-editor-core": "1.83.101",
     "antd": "^5.23.0",
     "frontend": "file:",
     "mobx": "^6.13.5",
     "mobx-react": "^9.2.0",
     "monaco-editor-core": "^0.52.2",
-    "next": "15.1.2",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
