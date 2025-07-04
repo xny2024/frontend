@@ -1,7 +1,7 @@
 'use client'
 
 import { RefObject, useEffect, useRef, useState } from "react";
-import * as monaco from 'monaco-editor-core';
+import * as monaco from '@theia/monaco-editor-core';
 
 type EditorType = monaco.editor.IStandaloneCodeEditor | null;
 
